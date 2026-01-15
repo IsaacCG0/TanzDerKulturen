@@ -13,7 +13,7 @@ function App() {
       
 
       <div className="w-full">
-        <h1 className=" text-3xl font-tussilago-bold text-white underline p-4">
+        <h1 className=" text-3xl font-tussilago text-white underline p-4">
           ¡Hola Mundo desde React!
         </h1>
       </div>
