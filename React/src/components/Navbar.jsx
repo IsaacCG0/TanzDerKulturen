@@ -9,8 +9,8 @@ const Navbar = ({changePage})=>{
         </div>
 
         <div className="flex gap-6">
-          <button onClick={() => changePage("home")} className="hover:text-blueSecondary transition">Home</button>
-          <button onClick={() => changePage("ebook")} className="hover:text-blueSecondary transition">E-Book</button>
+          <button onClick={() => changePage("home")} className="hover:text-blueSecondary hover:underline hover:cursor-pointer transition">Home</button>
+          <button onClick={() => changePage("ebook")} className="hover:text-blueSecondary hover:underline hover:cursor-pointer transition">E-Book</button>
         </div>
       </nav>
     )
