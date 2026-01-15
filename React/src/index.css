@@ -14,3 +14,12 @@ body {
   width: 100%;
   height: 100%;
 }
+
+@font-face {
+  font-family: "Tussilago";
+  src: url(./assets/fonts/tussilagorg-bold.otf);
+}
+
+@theme{
+  --font-tussilago-bold: "Tussilago";
+}
