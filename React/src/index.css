@@ -1,28 +1,35 @@
 @import "tailwindcss";
 
 
+
+@font-face {
+  font-family: "Tussilago";
+  src: url(./assets/fonts/tussilagorg-bold.otf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@theme{
+  --font-tussilago: "Tussilago";
+  --font-roboto: "Roboto";
+  --color-blueSecondary: #3A91C1;
+  --color-brandWhite: #F5EDEF;
+  --color-brandYellow: #c6e12e;
+}
+
 body {
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
   background-color: #F5EDEF;
+  font-family: "Roboto";
 }
 
 
 #root {
   width: 100%;
   height: 100%;
-}
-
-@font-face {
-  font-family: "Tussilago";
-  src: url(./assets/fonts/tussilagorg-bold.otf);
-}
-
-@theme{
-  --font-tussilago: "Tussilago";
-  --color-blueSecondary: #3A91C1;
-  --color-brandWhite: #F5EDEF;
-  --color-brandYellow: #c6e12e;
 }
