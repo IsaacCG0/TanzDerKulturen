@@ -3,8 +3,8 @@ import tanzpadagogik from "../assets/images/Tanzpadagogik.jpg"
 
 const Ebook = () => {
     return (
-        <>
-            <div className="relative h-70 w-full overflow-hidden flex items-center justify-center">
+        <div className="max-w-full overflow-x-hidden">
+            <div className="relative h-70 max-w-full overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 bg-fixed bg-center bg-cover brightness-50 z-0" style={{ backgroundImage: `url(${schlange})` }}>
                 </div>
                 <div className="relative z-10 text-center">
@@ -12,19 +12,19 @@ const Ebook = () => {
                 </div>
             </div>
             <div className="h-15"></div>
-            <div className="h-125 flex md:flex-col lg:flex-row justify-between">
-                <div className="w-125 flex justify-end items-start ">
+            <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10">
+                <div className="w-full lg:w-1/4 flex justify-center lg:justify-end items-start">
                     <img src={tanzpadagogik} alt="Rituelle Tanzpädagogik" className="w-64 h-auto object-contain" />
                 </div>
-                <div className="w-225 flex flex-col justify-normal mx-10">
-                    <div>
+                <div className="w-full lg:w-2/4 flex flex-col">
+                    <header>
                         <p>
                             Stephanie Bangoura
                         </p>
                         <h1 className="font-tussilago text-2xl">
                             Grundlagen für tanzpädagogische Workshops
                         </h1>
-                    </div>
+                    </header>
                     <br />
                     <div className="mt-10 text-justify">
                         <p>
@@ -48,7 +48,7 @@ const Ebook = () => {
                         </p>
                     </div>
                 </div>
-                <div className="w-125 bg-amber-200 flex justify-normal">
+                <div className="w-full lg:w-1/4">
                     <div className="bg-amber-800 h-auto">
 
                         <h2 className="font-tussilago text-xl">
@@ -58,7 +58,7 @@ const Ebook = () => {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
 export default Ebook;
