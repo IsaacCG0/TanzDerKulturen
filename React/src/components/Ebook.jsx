@@ -4,6 +4,7 @@ import tanzpadagogik from "../assets/images/Tanzpadagogik.jpg"
 const Ebook = () => {
     return (
         <div className="max-w-full overflow-x-hidden">
+            {/**Title with parallax */}
             <div className="relative h-70 max-w-full overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 bg-fixed bg-center bg-cover brightness-50 z-0" style={{ backgroundImage: `url(${schlange})` }}>
                 </div>
@@ -12,6 +13,7 @@ const Ebook = () => {
                 </div>
             </div>
             <div className="h-15"></div>
+            {/**Content */}
             <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-1/4 flex justify-center lg:justify-end items-start">
                     <img src={tanzpadagogik} alt="Rituelle Tanzpädagogik" className="w-64 h-auto object-contain" />

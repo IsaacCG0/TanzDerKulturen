@@ -5,12 +5,14 @@ import Ebook from './components/Ebook';
 import Home from "./components/Home"
 
 function App() {
+  {/** Pages value */}
   const [page, setPage] = useState("home");
 
   return (
     <>
      <Navbar changePage={setPage}></Navbar>
      <main>
+      {/** Pages options */}
       {page === "ebook" && <Ebook></Ebook>}
       {page === "home" && <Home></Home>}
      </main>
