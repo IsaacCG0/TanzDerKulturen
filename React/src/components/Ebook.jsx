@@ -13,6 +13,7 @@ const Ebook = () => {
                 </div>
             </div>
             <div className="h-15"></div>
+            
             {/**Content */}
             <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-1/4 flex flex-col justify-start lg:justify-start items-center">
