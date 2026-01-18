@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Ebook from './components/Ebook';
 import Home from "./components/Home"
+import Footer from './components/Footer';
 
 function App() {
   {/** Pages value */}
@@ -16,6 +17,7 @@ function App() {
       {page === "ebook" && <Ebook></Ebook>}
       {page === "home" && <Home></Home>}
      </main>
+     <Footer></Footer>
     </>
   )
 }

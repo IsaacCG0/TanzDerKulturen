@@ -17,6 +17,9 @@
   --color-blueSecondary: #3A91C1;
   --color-brandWhite: #F5EDEF;
   --color-brandYellow: #c6e12e;
+  --color-brandGreen: #83D374;
+  --color-brandBlack: #000006;
+  --color-brandRed: #D00D1E;
 }
 
 body {

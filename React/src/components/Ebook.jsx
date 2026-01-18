@@ -13,7 +13,7 @@ const Ebook = () => {
                 </div>
             </div>
             <div className="h-15"></div>
-            
+
             {/**Content */}
             <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-1/4 flex flex-col justify-start lg:justify-start items-center">
@@ -23,6 +23,7 @@ const Ebook = () => {
                         <p>Stephanie Bangoura</p>
                         <h2 className="font-tussilago">Rituelle Tanzpädagogik</h2>
                         <h4 className="text-gray-400">Die Kunst, Gemeinschaft zu tanzen</h4>
+                        <br />
                         <p>2025, 371 S., 29,90 € (D)</p>
                         <p>ISBN 9783763973705</p>
                         <p>Nur als E-Book erhältlich</p>
@@ -61,15 +62,22 @@ const Ebook = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/4">
-                    <div className="bg-amber-800 h-auto">
+                    <div className="bg-gray-300 h-auto p-5">
 
-                        <h2 className="font-tussilago text-xl">
-                            Grundlagen für tanzpädagogische Workshops
+                        <h2 className=" text-xl">
+                            Ebook PDF
                         </h2>
+                        <h1 className="text-4xl font-semibold">
+                            29,90€
+                        </h1>
+                        <div className="h-5"></div>
+                        <div className="bg-brandRed text-brandWhite font-semibold text-center p-3 border-brandWhite hover:cursor-pointer" onClick={() => window.location.href = 'https://www.wbv.de/shop/Rituelle-Tanzpaedagogik-I73705'}>
+                            <p>Buy</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <div className="h-10"></div>
         </div>
     )
 }
