@@ -1,7 +1,7 @@
 const Footer = () =>{
 
     return(
-        <>
+        <footer>
         <div className="bg-brandGreen flex justify-around h-20 items-center font-black">
             <div>
                 <p>
@@ -17,7 +17,7 @@ const Footer = () =>{
         <div className="bg-brandBlack text-brandWhite text-center justify-center p-4">
             <p>© 2025 Stephanie Bangoura</p>
         </div>
-        </>
+        </footer>
     );
 
 }
