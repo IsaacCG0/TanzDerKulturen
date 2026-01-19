@@ -2,7 +2,7 @@ const Footer = () =>{
 
     return(
         <footer>
-        <div className="bg-brandGreen flex justify-around h-20 items-center font-black">
+        <div className="bg-brandDarkGreen flex justify-around h-20 items-center font-black">
             <div>
                 <p>
                     info@tanz-der-kulturen.de
