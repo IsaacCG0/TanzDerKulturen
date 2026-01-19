@@ -71,7 +71,7 @@ const Ebook = () => {
                             29,90€
                         </h1>
                         <div className="h-5"></div>
-                        <div className="bg-brandRed text-brandWhite font-semibold text-center p-3 border-brandWhite hover:cursor-pointer" onClick={() => window.location.href = 'https://www.wbv.de/shop/Rituelle-Tanzpaedagogik-I73705'}>
+                        <div className="bg-brandGreen font-semibold text-center p-3 border-brandWhite hover:cursor-pointer" onClick={() => window.location.href = 'https://www.wbv.de/shop/Rituelle-Tanzpaedagogik-I73705'}>
                             <p>Buy</p>
                         </div>
                     </div>
