@@ -61,20 +61,20 @@ const Ebook = () => {
                     {content === "portrat" && <Portrat></Portrat>}
                 </div>
                 <div className="w-full lg:w-2/4 flex-col flex md:hidden">
-                <details>
-                    <summary>
+                <details >
+                    <summary className="text-bold text-2xl">
                         Beschreibung
                     </summary>
                     <Beschreibung></Beschreibung>
                 </details>
                 <details>
-                    <summary>
+                    <summary className="text-bold text-2xl">
                         Inhaltsverzeichnis
                     </summary>
                     <Inhaltsverzeichnis></Inhaltsverzeichnis>
                 </details>
                 <details>
-                    <summary>
+                    <summary className="text-bold text-2xl">
                         Portrat
                     </summary>
                     <Portrat></Portrat>
