@@ -16,7 +16,7 @@ const Ebook = () => {
           style={{ backgroundImage: `url(${schlange})` }}
         ></div>
         <div className="relative z-10 text-center">
-          <h1 className="text-brandYellow lg:text-6xl md: text-3xl font-tussilago">
+          <h1 className="text-brandDarkBlue lg:text-6xl md: text-3xl font-tussilago">
             Rituelle Tanzpädagogik
           </h1>
         </div>
